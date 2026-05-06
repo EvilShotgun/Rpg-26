@@ -1,6 +1,6 @@
 if ctd = true
 {
-    hp -= 3
+    hp -= 2
     ctd = false
     alarm[1] = 10
 }
