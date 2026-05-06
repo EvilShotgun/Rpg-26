@@ -1,3 +1,4 @@
+audio_pause_all()
 ca = true
 cr = true
    with obj_shotgun
