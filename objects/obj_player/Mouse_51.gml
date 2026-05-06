@@ -4,9 +4,12 @@ if ca = true && mag > 1
     cr = false
     ca = false
     mag -=2
-    alarm[2] = 45
-       with obj_shotgun
+    alarm[2] = 90
+    audio_pause_all()
+    audio_play_sound(sou_shogun,1,false,1,0,0.75)
+      with obj_shotgun
     {
+        sprite_index = spr_big_shotgun
         image_speed = 1
     }
     with obj_shells

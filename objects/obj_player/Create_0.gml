@@ -9,4 +9,4 @@ cr = true
 mag = 6
 kills = 0
 
-instance_create_depth(obj_player.x,obj_player.y,obj_player.depth + 1,obj_shotgun)
+instance_create_depth(obj_player.x,obj_player.y,obj_player.depth + 2,obj_shotgun)

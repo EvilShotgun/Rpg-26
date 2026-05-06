@@ -3,11 +3,11 @@ target_y = y;
 
 alarm[0] = 60;
 
-tilemap = layer_tilemap_get_id("ts_walls");
+tilemap = layer_tilemap_get_id("tsl_walls");
 
 hp = 3
 ctd = true
 hp = 3
 damage = 1
 distance = 300
-emvsp = 3
+emvsp = 2

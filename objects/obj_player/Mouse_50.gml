@@ -4,8 +4,11 @@ if ca = true && mag > 0
     cr = false
     ca = false
     mag -=1
-    alarm[2] = 30
-       with obj_shotgun
+    alarm[2] = 60
+    
+    audio_pause_all()
+    audio_play_sound(sou_shogun,1,false)
+    with obj_shotgun
     {
         image_speed = 1
     }

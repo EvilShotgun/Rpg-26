@@ -1,7 +1,7 @@
-var _hor = clamp(target_x - x, -1, 1);
-var _ver = clamp(target_y - y, -1, 1);
+hor = clamp(target_x - x, -1, 1);
+ver = clamp(target_y - y, -1, 1);
 
-move_and_collide(_hor * emvsp, _ver * emvsp, [tilemap, or_enemy_parent]);
+move_and_collide(hor * emvsp, ver * emvsp, [tilemap, or_enemy_parent, obj_player]);
 
 if hp = 0
 {
